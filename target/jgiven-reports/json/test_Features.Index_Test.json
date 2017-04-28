@@ -1,0 +1,134 @@
+{
+  "className": "test_Features.Index_Test",
+  "name": "Index _",
+  "scenarios": [
+    {
+      "className": "test_Features.Index_Test",
+      "testMethodName": "visit_google_site",
+      "description": "visit google site",
+      "tagIds": [
+        "test_Features.Index_Test$IndexCategory"
+      ],
+      "explicitParameters": [],
+      "derivedParameters": [],
+      "casesAsTable": false,
+      "scenarioCases": [
+        {
+          "caseNr": 1,
+          "steps": [
+            {
+              "name": "I visit site",
+              "words": [
+                {
+                  "value": "When",
+                  "isIntroWord": true
+                },
+                {
+                  "value": "I visit site"
+                },
+                {
+                  "value": "http://index.hu",
+                  "argumentInfo": {
+                    "argumentName": "url",
+                    "formattedValue": "\"http://index.hu\""
+                  }
+                }
+              ],
+              "status": "PASSED",
+              "durationInNanos": 2630864352
+            },
+            {
+              "name": "I check the header",
+              "words": [
+                {
+                  "value": "Then",
+                  "isIntroWord": true
+                },
+                {
+                  "value": "I check the header"
+                }
+              ],
+              "status": "PASSED",
+              "durationInNanos": 23516112
+            }
+          ],
+          "explicitArguments": [],
+          "derivedArguments": [],
+          "status": "SUCCESS",
+          "success": true,
+          "durationInNanos": 2654849476
+        }
+      ],
+      "durationInNanos": 2654849476,
+      "executionStatus": "SUCCESS"
+    },
+    {
+      "className": "test_Features.Index_Test",
+      "testMethodName": "get_skipped_result",
+      "description": "get skipped result",
+      "tagIds": [
+        "test_Features.Index_Test$IndexCategory"
+      ],
+      "explicitParameters": [],
+      "derivedParameters": [],
+      "casesAsTable": false,
+      "scenarioCases": [
+        {
+          "caseNr": 1,
+          "steps": [
+            {
+              "name": "I visit site",
+              "words": [
+                {
+                  "value": "When",
+                  "isIntroWord": true
+                },
+                {
+                  "value": "I visit site"
+                },
+                {
+                  "value": "http://index.hu",
+                  "argumentInfo": {
+                    "argumentName": "url",
+                    "formattedValue": "\"http://index.hu\""
+                  }
+                }
+              ],
+              "status": "PASSED",
+              "durationInNanos": 921926920
+            },
+            {
+              "name": "I click on index2 button",
+              "words": [
+                {
+                  "value": "Then",
+                  "isIntroWord": true
+                },
+                {
+                  "value": "I click on index2 button"
+                }
+              ],
+              "status": "PENDING",
+              "durationInNanos": 0
+            }
+          ],
+          "explicitArguments": [],
+          "derivedArguments": [],
+          "status": "SOME_STEPS_PENDING",
+          "success": true,
+          "durationInNanos": 922368665
+        }
+      ],
+      "durationInNanos": 922368665,
+      "executionStatus": "SOME_STEPS_PENDING"
+    }
+  ],
+  "tagMap": {
+    "test_Features.Index_Test$IndexCategory": {
+      "fullType": "test_Features.Index_Test$IndexCategory",
+      "type": "IndexCategory",
+      "description": "",
+      "href": ""
+    }
+  }
+}

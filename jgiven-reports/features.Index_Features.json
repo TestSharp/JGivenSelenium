@@ -1,0 +1,65 @@
+{
+  "className": "features.Index_Features",
+  "name": "Index _ Features",
+  "scenarios": [
+    {
+      "className": "features.Index_Features",
+      "testMethodName": "visit_google_site",
+      "description": "visit google site",
+      "tagIds": [],
+      "explicitParameters": [],
+      "derivedParameters": [],
+      "casesAsTable": false,
+      "scenarioCases": [
+        {
+          "caseNr": 1,
+          "steps": [
+            {
+              "name": "I visit site",
+              "words": [
+                {
+                  "value": "When",
+                  "isIntroWord": true
+                },
+                {
+                  "value": "I visit site"
+                },
+                {
+                  "value": "http://index.hu",
+                  "argumentInfo": {
+                    "argumentName": "url",
+                    "formattedValue": "\"http://index.hu\""
+                  }
+                }
+              ],
+              "status": "PASSED",
+              "durationInNanos": 2964045411
+            },
+            {
+              "name": "I check the header",
+              "words": [
+                {
+                  "value": "Then",
+                  "isIntroWord": true
+                },
+                {
+                  "value": "I check the header"
+                }
+              ],
+              "status": "PASSED",
+              "durationInNanos": 43962143
+            }
+          ],
+          "explicitArguments": [],
+          "derivedArguments": [],
+          "status": "SUCCESS",
+          "success": true,
+          "durationInNanos": 3008601038
+        }
+      ],
+      "durationInNanos": 3008601038,
+      "executionStatus": "SUCCESS"
+    }
+  ],
+  "tagMap": {}
+}

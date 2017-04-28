@@ -1,0 +1,65 @@
+{
+  "className": "test_Steps.Test_Steps",
+  "name": "Test _ Steps",
+  "scenarios": [
+    {
+      "className": "test_Steps.Test_Steps",
+      "testMethodName": "visit_google_site",
+      "description": "visit google site",
+      "tagIds": [],
+      "explicitParameters": [],
+      "derivedParameters": [],
+      "casesAsTable": false,
+      "scenarioCases": [
+        {
+          "caseNr": 1,
+          "steps": [
+            {
+              "name": "I visit site",
+              "words": [
+                {
+                  "value": "When",
+                  "isIntroWord": true
+                },
+                {
+                  "value": "I visit site"
+                },
+                {
+                  "value": "https://google.hu",
+                  "argumentInfo": {
+                    "argumentName": "url",
+                    "formattedValue": "\"https://google.hu\""
+                  }
+                }
+              ],
+              "status": "PASSED",
+              "durationInNanos": 477205694
+            },
+            {
+              "name": "I check the logo",
+              "words": [
+                {
+                  "value": "Then",
+                  "isIntroWord": true
+                },
+                {
+                  "value": "I check the logo"
+                }
+              ],
+              "status": "PASSED",
+              "durationInNanos": 27315698
+            }
+          ],
+          "explicitArguments": [],
+          "derivedArguments": [],
+          "status": "SUCCESS",
+          "success": true,
+          "durationInNanos": 513430720
+        }
+      ],
+      "durationInNanos": 513430720,
+      "executionStatus": "SUCCESS"
+    }
+  ],
+  "tagMap": {}
+}
