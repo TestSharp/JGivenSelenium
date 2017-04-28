@@ -28,7 +28,6 @@ public class Index_Test extends SimpleScenarioTest<Index_Test_Steps> {
 	@BeforeClass
 	public static void SetupDriver() {
 		
-		System.setProperty("webdriver.chrome.driver", "src\\test\\resources\\Drivers\\chromedriver.exe");
 		driver = new ChromeDriver();
 		
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);

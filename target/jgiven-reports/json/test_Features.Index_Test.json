@@ -35,7 +35,7 @@
                 }
               ],
               "status": "PASSED",
-              "durationInNanos": 2630864352
+              "durationInNanos": 2996493628
             },
             {
               "name": "I check the header",
@@ -49,17 +49,17 @@
                 }
               ],
               "status": "PASSED",
-              "durationInNanos": 23516112
+              "durationInNanos": 33332349
             }
           ],
           "explicitArguments": [],
           "derivedArguments": [],
           "status": "SUCCESS",
           "success": true,
-          "durationInNanos": 2654849476
+          "durationInNanos": 3030305898
         }
       ],
-      "durationInNanos": 2654849476,
+      "durationInNanos": 3030305898,
       "executionStatus": "SUCCESS"
     },
     {
@@ -95,7 +95,7 @@
                 }
               ],
               "status": "PASSED",
-              "durationInNanos": 921926920
+              "durationInNanos": 4208072227
             },
             {
               "name": "I click on index2 button",
@@ -116,10 +116,10 @@
           "derivedArguments": [],
           "status": "SOME_STEPS_PENDING",
           "success": true,
-          "durationInNanos": 922368665
+          "durationInNanos": 4208467135
         }
       ],
-      "durationInNanos": 922368665,
+      "durationInNanos": 4208467135,
       "executionStatus": "SOME_STEPS_PENDING"
     }
   ],

@@ -35,7 +35,7 @@
                 }
               ],
               "status": "PASSED",
-              "durationInNanos": 631291660
+              "durationInNanos": 812925263
             },
             {
               "name": "I check the logo",
@@ -49,17 +49,17 @@
                 }
               ],
               "status": "PASSED",
-              "durationInNanos": 33564932
+              "durationInNanos": 30993378
             }
           ],
           "explicitArguments": [],
           "derivedArguments": [],
           "status": "SUCCESS",
           "success": true,
-          "durationInNanos": 674875897
+          "durationInNanos": 854401187
         }
       ],
-      "durationInNanos": 674875897,
+      "durationInNanos": 854401187,
       "executionStatus": "SUCCESS"
     },
     {
@@ -95,7 +95,7 @@
                 }
               ],
               "status": "PASSED",
-              "durationInNanos": 325533446
+              "durationInNanos": 364490428
             },
             {
               "name": "I get a failed result",
@@ -109,7 +109,7 @@
                 }
               ],
               "status": "FAILED",
-              "durationInNanos": 10900550
+              "durationInNanos": 11468692
             }
           ],
           "explicitArguments": [],
@@ -121,17 +121,15 @@
             "org.junit.Assert.assertEquals(Assert.java:115)",
             "org.junit.Assert.assertEquals(Assert.java:144)",
             "jbehave_Tests.Google_Test_Steps.I_get_a_failed_result(Google_Test_Steps.java:26)",
-            "jbehave_Tests.Google_Test_Steps$ByteBuddy$5LD4sTJ7.I_get_a_failed_result$accessor$L7zJHqyK(Unknown Source)",
-            "jbehave_Tests.Google_Test_Steps$ByteBuddy$5LD4sTJ7$auxiliary$X5PEIMbC.call(Unknown Source)",
-            "jbehave_Tests.Google_Test_Steps$ByteBuddy$5LD4sTJ7.I_get_a_failed_result(Unknown Source)",
-            "test_Features.Google_Test.failing_test(Google_Test.java:97)",
+            "jbehave_Tests.Google_Test_Steps$ByteBuddy$xCgDNy3C.I_get_a_failed_result$accessor$QydD6SaU(Unknown Source)",
+            "jbehave_Tests.Google_Test_Steps$ByteBuddy$xCgDNy3C$auxiliary$ABxhvi1y.call(Unknown Source)",
+            "jbehave_Tests.Google_Test_Steps$ByteBuddy$xCgDNy3C.I_get_a_failed_result(Unknown Source)",
+            "test_Features.Google_Test.failing_test(Google_Test.java:55)",
             "org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)",
             "org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)",
             "org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)",
             "org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)",
             "com.tngtech.jgiven.junit.JGivenMethodRule$1.evaluate(JGivenMethodRule.java:73)",
-            "org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)",
-            "org.junit.rules.RunRules.evaluate(RunRules.java:20)",
             "org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)",
             "org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)",
             "org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)",
@@ -154,10 +152,10 @@
             "org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)",
             "org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)"
           ],
-          "durationInNanos": 336886970
+          "durationInNanos": 376425245
         }
       ],
-      "durationInNanos": 336886970
+      "durationInNanos": 376425245
     }
   ],
   "tagMap": {
