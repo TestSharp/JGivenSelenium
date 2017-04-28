@@ -1,12 +1,20 @@
 package test_Features;
 
+import java.io.File;
+import java.io.IOException;
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 import java.util.concurrent.TimeUnit;
 
+import org.apache.commons.io.FileUtils;
 import org.junit.AfterClass;
 import org.junit.BeforeClass;
+import org.junit.Rule;
 import org.junit.Test;
+import org.junit.rules.TestWatcher;
+import org.junit.runner.Description;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
@@ -24,7 +32,24 @@ public class Index_Test extends SimpleScenarioTest<Index_Test_Steps> {
 	@IsTag
 	@Retention(RetentionPolicy.RUNTIME)
 	public @interface IndexCategory {}
-		
+	
+	@Rule
+	public TestWatcher watchman = new TestWatcher() {
+
+	    @Override
+	    protected void failed(Throwable e, Description description) {
+	        File scrFile = ((TakesScreenshot) driver)
+	                .getScreenshotAs(OutputType.FILE);
+	        try {
+	            FileUtils.copyFile(scrFile, new File(
+	                    "C:\\Work\\screenshot.png"));
+	        } catch (IOException e1) {
+	            System.out.println("Fail to take screen shot");
+	        }
+	    }
+	};
+	
+			
 	@BeforeClass
 	public static void SetupDriver() {
 		
@@ -40,7 +65,7 @@ public class Index_Test extends SimpleScenarioTest<Index_Test_Steps> {
 		driver.quit();
 		driver = null;
 	}
-	
+		
 	@IndexCategory
     @Test
     public void visit_google_site() {
